@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a {
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+nav {
+  text-align: center;
+}
+
+figcaption{
+  text-align: center;
+  font-size: smaller;
+}
+
+#featured-property{
+  text-align: center;
+  p {
+    line-height: 50px;
+    width: 800px;
+    float: center;
+  }
+}
+
+#details {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  div {
+    width: 25%;
+  }
+}
